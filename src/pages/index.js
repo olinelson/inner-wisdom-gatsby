@@ -101,6 +101,7 @@ const IndexPage = ({ location }) => {
         <GatsbyJumbotron fullHeight>
           <JumboMessage>
             <JumboHeader size='huge' as='h1' inverted>Inner Wisdom Psychology</JumboHeader>
+            <Header.Subheader style={{ color: 'white', textShadow: '1px 1px 2px black', marginTop: '-20px' }} as='h2'>& Yoga</Header.Subheader>
             <Header.Subheader style={{ color: 'white', textShadow: '1px 1px 2px black' }} as='h3'>Wellbeing, Relationships, Guidance</Header.Subheader>
 
           </JumboMessage>

@@ -45,16 +45,8 @@ const Layout = ({ children }) => (
 
           <Header siteTitle={data.site.siteMetadata.title} />
 
-          {/* <MobileOnlyDiv>
-            <Divider hidden />
-          </MobileOnlyDiv> */}
-
           <div style={{ margin: '0 auto' }}>{children}</div>
         </div>
-
-        {/* <Divider hidden /> */}
-
-        {/* <Divider hidden /> */}
 
         <Segment textAlign='center' padded='very'>
           <h4>{data.site.siteMetadata.title}</h4>

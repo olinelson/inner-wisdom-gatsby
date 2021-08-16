@@ -70,7 +70,7 @@ function Nav ({ siteTitle }) {
         <Menu secondary fixed='top'>
           <Menu.Menu position='right'>
             <Menu.Item onClick={() => setVisible(!visible)}>
-              {!visible ? <Icon size='large' name='bars' /> : null}
+              {!visible ? <Icon size="big" color="yellow" inverted  name='bars' /> : null}
             </Menu.Item>
           </Menu.Menu>
         </Menu>

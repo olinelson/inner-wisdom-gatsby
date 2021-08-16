@@ -1,9 +1,8 @@
 const path = require('path')
 
 module.exports = {
-  // pathPrefix: '/inner-wisdom-gatsby',
   siteMetadata: {
-    title: 'Inner Wisdom Psychology'
+    title: 'Inner Wisdom Psychology And Yoga'
   },
   plugins: [{
     resolve: 'gatsby-source-filesystem',
