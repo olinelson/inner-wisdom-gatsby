@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 // components
 import {
@@ -7,10 +7,10 @@ import {
   CenteredGridColumn,
   Quote,
   JumboHeader,
-  JumboMessage
-} from '../components/MyStyledComponents'
-import { Link, graphql, useStaticQuery } from 'gatsby'
-import Img from 'gatsby-image'
+  JumboMessage,
+} from "../components/MyStyledComponents"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 import {
   Button,
   Container,
@@ -19,20 +19,17 @@ import {
   Segment,
   List,
   Header,
-  Item
-} from 'semantic-ui-react'
-import Layout from '../components/layout'
+  Item,
+} from "semantic-ui-react"
+import Layout from "../components/layout"
 
-import FAQS from '../components/Faqs'
-import Memberships from '../components/Memberships'
+import Memberships from "../components/Memberships"
 
 const IndexPage = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
       forrest: file(
-        relativePath: {
-          regex: "/(images/resources/forrest-path-trees.jpg)/"
-        }
+        relativePath: { regex: "/(images/resources/forrest-path-trees.jpg)/" }
       ) {
         childImageSharp {
           fluid(fit: CONTAIN) {
@@ -100,14 +97,19 @@ const IndexPage = ({ location }) => {
       <Layout location={location}>
         <GatsbyJumbotron fullHeight>
           <JumboMessage>
-            <JumboHeader size='huge' as='h1' inverted>Inner Wisdom Psychology</JumboHeader>
-            <Header.Subheader style={{ color: 'white', textShadow: '1px 1px 2px black', marginTop: '-20px' }} as='h2'>& Yoga</Header.Subheader>
-            <Header.Subheader style={{ color: 'white', textShadow: '1px 1px 2px black' }} as='h3'>Wellbeing, Relationships, Guidance</Header.Subheader>
-
+            <JumboHeader size="huge" as="h1" inverted>
+              Inner Wisdom Psychology
+            </JumboHeader>
+            <Header.Subheader
+              style={{ color: "white", textShadow: "1px 1px 2px black" }}
+              as="h3"
+            >
+              Counselling, Clinical Supervision, End of Life Doula
+            </Header.Subheader>
           </JumboMessage>
           <Img
-            alt='path through trees in forrest'
-            style={{ gridArea: 'main' }}
+            alt="path through trees in forrest"
+            style={{ gridArea: "main" }}
             fluid={data.forrest.childImageSharp.fluid}
           />
         </GatsbyJumbotron>
@@ -119,18 +121,32 @@ const IndexPage = ({ location }) => {
           {/* <Segment> */}
           <Item.Group>
             <Item>
-              <Img className='image' fluid={data.sueHeadshot.childImageSharp.fluid} />
+              <Img
+                className="image"
+                fluid={data.sueHeadshot.childImageSharp.fluid}
+              />
               {/* <Item.Image alt="Susan Stephenson, Director" size='medium' src='https://storage.googleapis.com/inner_wisdom_bucket/headshot_noExifRotated.jpg' /> */}
 
-              <Item.Content verticalAlign='top'>
-                <Header>Susan Stephenson | Director
-                  <Header.Subheader> B.A (Psych), Dip. Ed. (Psych), MEd (Counselling), FAPS, MCCOUNP, AAOS</Header.Subheader>
+              <Item.Content verticalAlign="top">
+                <Header>
+                  Susan Stephenson | Director
+                  <Header.Subheader>
+                    {" "}
+                    B.A (Psych), Dip. Ed. (Psych), MEd (Counselling), FAPS,
+                    MCCOUNP, AAOS
+                  </Header.Subheader>
                 </Header>
 
                 <Item.Description>
                   <p>
-                    I am a Registered Counselling Psychologist with 30+ years’ experience helping adults and couples resolve difficulties in order to live fulfilling, purposeful and content lives.
-                    I specialize in mental health well-being, including managing personal and workplace stress, anxiety and depression; recovery from psychological and emotional trauma (past and present), bereavement, grief and loss; life transitions and adjustments; couples and relationship counselling.
+                    I am a Registered Counselling Psychologist with 30+ years’
+                    experience helping adults and couples resolve difficulties
+                    in order to live fulfilling, purposeful and content lives. I
+                    specialize in mental health well-being, including managing
+                    personal and workplace stress, anxiety and depression;
+                    recovery from psychological and emotional trauma (past and
+                    present); life transitions and adjustments; End of life
+                    planning and transition, bereavement, grief and loss.
                   </p>
                 </Item.Description>
               </Item.Content>

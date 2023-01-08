@@ -70,6 +70,22 @@ export default function Memberships() {
             </Item.Meta>
           </Item.Content>
         </Item>
+        <Item>
+          <Item.Image
+            alt="Preparing the way logo"
+            size="tiny"
+            src="/images/tpwLogo.png"
+          />
+          <Item.Content>
+            <h4>Preparing the way</h4>
+            <Item.Meta>
+              <p>
+                Australia and New Zealand’s leading end of life doula training
+                organisation
+              </p>
+            </Item.Meta>
+          </Item.Content>
+        </Item>
       </Item.Group>
     </Container>
   )
