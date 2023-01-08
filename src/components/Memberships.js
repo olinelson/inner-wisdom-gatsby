@@ -48,7 +48,6 @@ export default function Memberships() {
           />
           <Item.Content>
             <h4>Fellow Australian Psychological Society</h4>
-            {/* <Item.Meta>Provider Number 2577293T</Item.Meta> */}
             <Item.Meta>
               <p>
                 Interest group memberships: Counselling Psychology, Psychology

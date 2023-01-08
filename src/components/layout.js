@@ -64,9 +64,6 @@ const Layout = ({ children }) => (
             <List.Item as={Link} to="/faqs">
               FAQs
             </List.Item>
-            <List.Item href="https://my.setmore.com/bookanappointmentv3.do?uniqueKey=b6129245-a32e-47a0-a283-9fe3895dd945">
-              Book Appointment
-            </List.Item>
           </List>
           <Divider hidden />
           <small style={{ color: "grey" }}>
