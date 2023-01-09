@@ -76,7 +76,7 @@ export default function Memberships() {
             src="/images/tpwLogo.png"
           />
           <Item.Content>
-            <h4>Preparing the way</h4>
+            <h4>Certified End of Life Doula Australia</h4>
             <Item.Meta>
               <p>
                 Australia and New Zealand’s leading end of life doula training

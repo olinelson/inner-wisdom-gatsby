@@ -59,7 +59,7 @@ export default function FAQS() {
       key: "death-doula",
       title: "What are your End of Life Doula Rates?",
       content:
-        "The standard rate of $200/hr applies for the initial consultation- up to 3 hours, which may also be provided as 3 x1 hr, or 2 x 1 1/2 hr sessions. If ongoing consultation and support are required, a discounted packages are available . ",
+        "The standard rate of $200/hr applies for the initial consultation- up to 3 hours, which may also be provided as 3 x1 hr, or 2 x 1 1/2 hr sessions. If ongoing consultation and support are required, discounted packages are available . ",
     },
     {
       key: "health-fund-rebate",
@@ -71,7 +71,9 @@ export default function FAQS() {
     {
       key: "how-do-I-pay",
       title: "How can I pay for my sessions?",
-      content: ["I accept Square, invoice"].join(" "),
+      content: [
+        "I accept payment via invoice, Square credit card or direct bank deposit",
+      ].join(" "),
     },
     {
       key: "offer-skype",

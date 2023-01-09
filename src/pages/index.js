@@ -145,8 +145,8 @@ const IndexPage = ({ location }) => {
                     specialize in mental health well-being, including managing
                     personal and workplace stress, anxiety and depression;
                     recovery from psychological and emotional trauma (past and
-                    present); life transitions and adjustments; End of life
-                    planning and transition, bereavement, grief and loss.
+                    present); End of life planning and transition, bereavement,
+                    grief and loss.
                   </p>
                 </Item.Description>
               </Item.Content>
