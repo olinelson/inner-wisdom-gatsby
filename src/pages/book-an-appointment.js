@@ -9,7 +9,7 @@ function Counselling(props) {
   const data = useStaticQuery(graphql`
     query {
       counsiousDying: file(
-        relativePath: { regex: "/(images/resources/counsiousDying.jpg)/" }
+        relativePath: { regex: "/(images/resources/phone2.jpg)/" }
       ) {
         childImageSharp {
           fluid(fit: CONTAIN) {
@@ -35,7 +35,7 @@ function Counselling(props) {
         <h1>Book an appointment</h1>
         <p>
           Please call, text or email Susan to book a free 15 minute intake
-          consultation. She can be contacted on
+          consultation. She can be contacted on{" "}
           <a href="mailto:innerwisdompsychologist@gmail.com">
             innerwisdompsychologist@gmail.com
           </a>{" "}

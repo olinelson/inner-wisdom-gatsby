@@ -37,6 +37,7 @@ function Nav({ siteTitle }) {
           <LinkedItem to="/end-of-life-doula">End of Life Doula</LinkedItem>
           <LinkedItem to="/resources">Resources</LinkedItem>
           <LinkedItem to="/faqs">FAQs</LinkedItem>
+          <LinkedItem to="/book-an-appointment">Book an Appointment</LinkedItem>
         </Menu.Menu>
       </Menu>
     </DesktopOnlyDiv>
@@ -69,6 +70,7 @@ function Nav({ siteTitle }) {
           <LinkedItem to="/end-of-life-doula">End of Life Doula</LinkedItem>
           <LinkedItem to="/resources">Resources</LinkedItem>
           <LinkedItem to="/faqs">FAQs</LinkedItem>
+          <LinkedItem to="/book-an-appointment">Book an Appointment</LinkedItem>
         </Sidebar>
 
         <Menu secondary fixed="top">
